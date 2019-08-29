@@ -39,7 +39,16 @@ p {
     left: 0;
     z-index: 1000;
 }
-
+.header.fixed {
+    height: auto;
+    position: fixed;
+    background: #31344e;
+}
+.header.header.fixed .header__inner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 0;
+}
 .header__inner {
     display: flex;
     justify-content: space-between;
