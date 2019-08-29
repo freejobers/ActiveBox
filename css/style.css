@@ -522,6 +522,18 @@ p {
     .social {
         justify-content: center;
     }
+    .reviews__photo {
+        width: 100%;
+        overflow: hidden;
+        margin: 15px 0 40px;
+        
+    }
+    .reviews__content {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 40px;
+    }
+    
 }
 
 @media (max-width: 767px) {
@@ -555,5 +567,35 @@ p {
     .team__item {
         width: 100%;
         text-align: center;
+    }
+    
+    .reviews__text {
+        font-size: 25px;
+    }
+    .btn--long {
+        min-width: 260px;
+    }
+    .download {
+        margin: 50px 0;
+    }
+    .download__title {
+        font-size: 24px;
+    }
+    .footer__inner {
+        padding: 30px 0;
+    }
+    .footer__block {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .footer__block:last-child {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 414px) {
+    .reviews__img {
+        right: -100px;
     }
 }
