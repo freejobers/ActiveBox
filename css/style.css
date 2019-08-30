@@ -510,6 +510,20 @@ p {
 @media (max-width: 991px) {
     .nav {
         display: none;
+        width: 100%;
+        flex-direction: column;
+        background-color: #31344e;
+        text-align: right;
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+    .nav.show {
+        display: flex;
+    }
+    .nav__link {
+        padding: 10px 15px;
+        /* border-bottom: 1px solid #fff; */
     }
     .burger {
         display: block;
